@@ -1,31 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Typography</title>
-  </head>
-  <body>
-    <!-- Font Family -->
+</head>
+<body>
+<!-- Font Family -->
+<div class="font-san">TailwindCSS is awesome.</div>
+<div class="font-serif">TailwindCSS is awesome.</div>
+<div class="font-mono">TailwindCSS is awesome.</div>
 
-    <!-- Font Size -->
+<!-- Font Size -->
 
-    <!-- Font Weight -->
+<div class="text-xs">TailwindCSS is awesome.</div>
+<div class="text-sm">TailwindCSS is awesome.</div>
+<div class="text-base">TailwindCSS is awesome.</div>
+<div class="text-lg">TailwindCSS is awesome.</div>
+<div class="text-xl">TailwindCSS is awesome.</div>
+<div class="text-2xl">TailwindCSS is awesome.</div>
+<div class="text-3xl">TailwindCSS is awesome.</div>
 
-    <!-- Letter Spacing -->
 
-    <!-- Text Alignment -->
+<!-- Font Weight -->
 
-    <!-- Text Decoration -->
+<div class="font-light">TailwindCSS is awesome.</div>
+<div class="font-normal">TailwindCSS is awesome.</div>
+<div class="font-medium">TailwindCSS is awesome.</div>
+<div class="font-semi-bold">TailwindCSS is awesome.</div>
+<div class="font-bold">TailwindCSS is awesome.</div>
 
-    <!-- Decoration Style -->
 
-    <!-- Decoration Offset -->
+<!-- Letter Spacing -->
 
-    <!-- Text Transform -->
-  </body>
+<div class="tracking-tight">TailwindCSS is awesome.</div>
+<div class="tracking-normal">TailwindCSS is awesome.</div>
+<div class="tracking-wide">TailwindCSS is awesome.</div>
+
+
+<!-- Text Alignment -->
+
+<div class="text-left">TailwindCSS is awesome.</div>
+<div class="text-center">TailwindCSS is awesome.</div>
+<div class="text-right">TailwindCSS is awesome.</div>
+
+
+<!-- Text Decoration -->
+
+<div class="underline decoration-3 decoration-blue-400">TailwindCSS is awesome.</div>
+<div class="underline decoration-double decoration-blue-400">TailwindCSS is awesome.</div>
+<div class="underline decoration-dashed decoration-blue-400">TailwindCSS is awesome.</div>
+<div class="underline decoration-dotted decoration-blue-400">TailwindCSS is awesome.</div>
+<div class="underline decoration-wavy decoration-blue-400">TailwindCSS is awesome.</div>
+
+
+<!-- Decoration Style -->
+
+
+
+<!-- Decoration Offset -->
+
+<!-- Text Transform -->
+<br>
+<div class="normal-case">TailwindCSS is awesome.</div>
+<div class="uppercase">TailwindCSS is awesome.</div>
+<div class="lowercase">TailwindCSS is awesome.</div>
+<div class="capitalize">TailwindCSS is awesome.</div>
+
+</body>
+<script>
+    tailwind.config = {
+        theme: {
+            fontFamily: {
+                'sans': ['ui-sans-serif', 'system-ui'],
+                'serif': ['Tapestry', 'Georgia'],
+                'mono': ['ui-monospace', 'SFMono-Regular'],
+            }
+        }
+    }
+</script>
 </html>
 
 <!-- Font Family
